@@ -9,7 +9,7 @@ from six import BytesIO
 from sqlalchemy import exc
 from openapi_server import test
 
-from openapi_server.models.error import Error  # noqa: E501
+# from openapi_server.models.error import Error  # noqa: E501
 from openapi_server.models.menu_item import MenuItem  # noqa: E501
 from openapi_server.test import BaseDBTestCase
 from openapi_server.database import models, db_seed

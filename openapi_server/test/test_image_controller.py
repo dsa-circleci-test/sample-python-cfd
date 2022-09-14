@@ -7,7 +7,7 @@ from unittest import mock
 from flask import json
 from six import BytesIO
 
-from openapi_server.models.error import Error  # noqa: E501
+# from openapi_server.models.error import Error  # noqa: E501
 from openapi_server.models.inline_response200 import InlineResponse200  # noqa: E501
 from openapi_server.test import BaseTestCase
 from openapi_server.database import models
